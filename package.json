@@ -1,0 +1,17 @@
+{
+    "name": "nodejs-basics",
+    "version": "1.0.0",
+    "description": "learning nodejs",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "keywords": [
+        "nodeJs"
+    ],
+    "author": "Istiak Ahmed",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

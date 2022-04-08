@@ -1,0 +1,15 @@
+{
+  "name": "npm_modules",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "server":"nodemon index.js"
+  },
+  "author": "Istiak Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
