@@ -16,6 +16,11 @@ let showFiles = async() => {
     const filesFolders = await fs.readdir('./products', { withFileTypes: true });
     // filter out the files
     const files = filesFolders.filter((file) => !file.isDirectory());
+    console.log("Files:")
     console.log(files);
+
+    const folders = filesFolders.filter((folder) => folder.isDirectory());
+    console.log("Folders:")
+    console.log(folders);
 };
 showFiles();
